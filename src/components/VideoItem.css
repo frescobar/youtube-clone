@@ -1,0 +1,24 @@
+.item-container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  align-items: center;
+  cursor: pointer;
+}
+
+img {
+  width: 250px;
+  height: auto;
+  margin-top: 0;
+  margin-right: 5px;
+  margin-bottom: 0;
+  margin-left: 45px;
+}
+
+p {
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 800;
+}
