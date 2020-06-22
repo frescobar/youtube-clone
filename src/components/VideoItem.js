@@ -7,7 +7,7 @@ export default function VideoItem({ video, onVideoSelect }) {
   return (
     <div onClick={() => onVideoSelect(video)} className="item item-container">
       <img className="ui" src={thumbnails.medium.url} alt={video.description} />
-      {video.description}
+
       <div className="content">
         <p className="header">{snippet.title}</p>
       </div>
